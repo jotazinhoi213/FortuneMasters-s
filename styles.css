@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('file:///C:/Users/Usuario/Downloads/BJZ43kiS_4x.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+  }
+  
+  .container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .button {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  
+  .button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 15px 30px;
+    background-color: #1e90ff;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    border: 1px solid #1e90ff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .button:hover {
+    background-color: #007bff;
+  }
+  
+  footer {
+    background-color: #333;
+    padding: 1px;
+    text-align: center;
+    font-size: 14px;
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  /* Estilizando os textos */
+.sinal p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .warning {
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    margin-top: 20px;
+  }
+  
+  /* Adicionando fundo aos elementos */
+  .sinal {
+    background-color: #f1f1f1;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
